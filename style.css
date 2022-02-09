@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: darkgray;
+    background-image: url("sliki/pozadina.png") ;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+h1{
+    color: darkred;
+}
+#div1 {
+    height: 400px;
+    width: 700px;
+    display: block;
+    position: absolute;
+    left: 900px;
+    top: 150px;
+    font-size: 60px;
+    padding: 2px;
+    margin: 2px;
+}
+#div2 {
+    position: absolute;
+    left: 100px;
+    top:60px
+
+}
+#text {
+    border: 5px solid darkred;
+    height: 20px;
+    width: 150px;
+    background-color: lightgray;
+}
+button {
+    font-size: 30px;
+    border: 5px solid darkred;
+    background-color: black;
+    color: darkgray;
+    padding: 5px;
+}
+#attempts {
+    text-decoration: underline;
+}
+#result {
+    color: darkgray;
+
+}
+zborot {
+    text-decoration: underline;
+    font-weight: bold;
+}
